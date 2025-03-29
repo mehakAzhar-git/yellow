@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: arial,sans-serif;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: linear-gradient(to right, 
+#ff758c, #ff7eb3, #91d1ff);
+}
+.login-container{
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 
+0-1);
+text-align: center;
+width: 300px;
+}
+h2{
+margin-bottom: 20px;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+label{
+text-align: left;
+font-size: 14px;
+margin: 5px 0;
+}
+input{
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.forgot-password{
+text-align: right;
+margin-bottom: 10px;
+}
+.forgot-password a {
+text-decoration: none;
+color: #ff758c;
+font-size: 12px;
+}
+button{
+background: linear-gradient(to right,
+#ff758c, #ff7eb3);
+color: white;
+border: none;
+padding: 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover{
+opacity: 0.9;
+}
+p{
+margin-top: 10px;
+font-size: 14px;
+}
+p a {
+color: #ff758c;
+text-decoration: none;
+font-weight: bold;
+}
+
+

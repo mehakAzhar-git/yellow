@@ -1,0 +1,77 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc0cb; /* Soft Pink Background */
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #ff69b4; /* Dark Pink */
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* About Us Section */
+.about-container {
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-container h2, .about-container h3 {
+    color: #ff1493;
+}
+
+.about-container p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.about-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-container ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* About Us Image */
+.about-img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px;
+}

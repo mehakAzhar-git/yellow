@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.banner {
+    background: url('image6.jpg') no-repeat center center/cover;
+    color: black; /* Text ka color */
+    text-align: center; /* Text ko center karega */
+    padding: 100px 20px; /* Upar neeche spacing */
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff8c94;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ff6673;
+}
+
+/* New Arrivals Section */
+.new-arrivals {
+    padding: 50px 20px;
+    background: white;
+}
+
+.new-arrivals h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #777;
+}
