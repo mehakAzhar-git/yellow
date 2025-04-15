@@ -1,1 +1,2 @@
-# skinfinity website
+#create skinfinity website
+First Semester
